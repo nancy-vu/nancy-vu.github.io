@@ -12,6 +12,11 @@
             padding: 0;
         }
 
+        /* Enable smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
         /* Navigation Bar */
         .nav_bar {
             display: flex;
@@ -83,14 +88,19 @@
 
         /* Home Section */
         #home {
-            padding: 50px;
+            height: calc(100vh - 50px); /* Full height minus navbar */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             background-color: #efea9c;
+            text-align: center;
+            padding: 20px;
         }
 
         #home h1 {
             font-size: 24px;
             color: #651693;
-            text-align: center;
         }
 
         #home p {
@@ -109,7 +119,7 @@
             <a href="#home" aria-label="Go to Home">Home</a>
             
             <div class="dropdown">
-                <a class="dropbtn" href="#portfolio" aria-label="View Portfolio">Portfolio ▼</a>
+                <a class="dropbtn" href="portfolio.html">Portfolio ▼</a>
                 <div class="dropdown-content">
                     <a href="#about-me">About Me</a>
                     <a href="#resume">Résumé</a>
