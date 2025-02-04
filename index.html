@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar</title>
+    <title>Personal Widgets Site</title>
     <style>
         /* General Styles */
         body {
@@ -17,7 +17,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #333;
+            background-color: #8083e6;
             padding: 15px;
         }
 
@@ -29,7 +29,7 @@
         }
 
         .nav_bar a:hover {
-            background-color: #555;
+            background-color: #cf89eb;
             border-radius: 5px;
         }
 
@@ -80,6 +80,26 @@
                 width: 100%;
             }
         }
+
+        /* Home Section */
+        #home {
+            padding: 50px;
+            background-color: #f4f4f4;
+            min-height: 100vh; /* Full height of screen */
+        }
+
+        #home h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        #home p {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin: auto; /* Center text */
+            line-height: 1.6;
+        }
     </style>
 </head>
 <body>
@@ -103,6 +123,14 @@
             <a href="#misc" aria-label="Miscellaneous Content">Misc</a>
         </div>
     </nav>
+
+    <!-- Home Section -->
+    <div id="home">
+      <h1>Welcome to the Personal Widgets Site!</h1>
+      <p>On this site, I will try to create a few online tools for myself to utilize and learn more about HTML, CSS, and JS in the process.</p>
+      <p>I hope to expand on this practice by making simple apps in the future, including possible tools to make decisions by choice *AND* chance!</p>
+  </div>
+
 
 </body>
 </html>
