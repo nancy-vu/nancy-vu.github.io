@@ -2,13 +2,22 @@
 <html>
     <head>
         <title>Personal Portfolio</title>
-        <link rel="stylesheet" href="./style.css"/>
-        <script src="./script.js"></script>
     <style>
       * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        #home {
+        background-color:  #7600bc;
+        padding-bottom: 1cm;
+        margin-left:-1cm;
+        margin-right:-1cm;
+        margin-top:-1cm;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        height: 5mm;
         }
 
         /* Portfolio Page Layout */
@@ -45,6 +54,26 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
+        }
+
+        /* Top Bar */
+        .topmenu {
+        color: lightgray;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration:none;
+        }
+      
+        .topmenu:hover {
+          color: white;
+          font-weight: bolder;
+          text-decoration: underline;
+        }
+        
+        .topdiv {
+          float: right;
+          padding-right: 1cm;
         }
 
         /* Typography */
@@ -85,20 +114,6 @@
             </div>
             </div>    
         </nav>
-
-                /* Typography */
-        h1 {
-            font-size: 24px;
-            color: #651693;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 16px;
-            color: #333;
-            line-height: 1.5;
-            max-width: 600px;
-        }
 
 
         <div class="portfolio-container">
