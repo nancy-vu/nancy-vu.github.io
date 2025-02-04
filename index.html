@@ -88,14 +88,14 @@
 
         /* Home Section */
         #home {
-            height: calc(100vh - 50px); /* Full height minus navbar */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: #efea9c;
-            text-align: center;
-            padding: 20px;
+        height: calc(100vh - 50px); /* Full height minus navbar */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #efea9c;
+        text-align: center;
+        padding: 20px;
         }
 
         #home h1 {
@@ -107,9 +107,10 @@
             font-size: 18px;
             color: #9b0e0eea;
             max-width: 600px;
-            margin: auto; 
+            margin: 0;  /* Removes unwanted spacing */
+            padding: 10px 0;  /* Adds better spacing */
             line-height: 1.6;
-        }
+       }
     </style>
 </head>
 <body>
@@ -119,7 +120,7 @@
             <a href="#home" aria-label="Go to Home">Home</a>
             
             <div class="dropdown">
-                <a class="dropbtn" href="portfolio.html">Portfolio ▼</a>
+                <a class="dropbtn" href="#portfolio">Portfolio ▼</a>
                 <div class="dropdown-content">
                     <a href="#about-me">About Me</a>
                     <a href="#resume">Résumé</a>
