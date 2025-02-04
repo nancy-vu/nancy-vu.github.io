@@ -112,7 +112,7 @@ body {
     margin: 5px;
   }
   
-  /* Skills */
+  /* Resume */
   
   .all_skills {
     display: flex;
@@ -159,7 +159,7 @@ body {
     justify-content: center;
   }
   
-  /* Projects */
+  /* Personal Life */
   
   .projects-container {
     margin-top: 30px;
@@ -187,7 +187,7 @@ body {
     margin-left: 30px;
   }
   
-  /* Recommendations */
+  /* Blogs */
   
   .all_recommendations {
     display: flex;
@@ -232,93 +232,5 @@ body {
     position: fixed;
     right: 3%;
     bottom: 3%;
-    cursor: pointer;
-  }
-  
-  /* Form Pop-up */
-  
-  .popup {
-    width:400px;
-    background-color: #e8bcf0;
-    border-radius: 3mm;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    position: fixed;
-    /* padding: 30px; */
-    visibility: hidden;
-  }
-  
-  .popup img {
-    padding-top: 20px;
-  }
-  
-  .popup button {
-    background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
-    display: block;
-    border-radius: 6px;
-    text-align: center;
-    margin: 50px;
-    padding: 10px;
-    width: 2in;
-    font-size: 20px;
-    margin-left: 25%;
-  }
-  
-  .popup button:hover {
-    background-color: #fff;
-    border: 2px solid #7600bc;
-    color: #7600bc;
-    display: block;
-    font-weight: bolder;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 25%;
-  }
-  
-  /* Recommendation Form */
-  
-  input, textarea {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    margin: 10px;  
-    width:100%;
-  }
-  
-  fieldset {
-    display: flexbox;
-    align-content: center;
-    justify-content: center;  
-    padding: 25px; 
-    margin-left: 50px; 
-    margin-right: 50px;   
-    border: thin solid white;
-    width: 50%;
-  }
-  
-  /* Buttons */
-  
-  button {
-    background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
-    display: block;
-    border-radius: 6px;
-    text-align: center;
-    margin: 50px;
-    padding: 10px;
-    width: 2in;
-    font-size: 20px;
-  }
-  
-  button:hover {
-    background-color: #7600bc;
-    border: 1px solid #7600bc;
-    color: #fff;
-    display: block;
-    border-radius: 6px;
-    text-align: center;
     cursor: pointer;
   }

@@ -1,44 +1,108 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Main Website</title>
-        <link rel="stylesheet" href="./style.css"/>
-        <script src="./script.js"></script>
-    </head>
-     <!-- Navigation Bar -->
-        <nav>
-            <div id="home">
-            <div class="profile_name">
-                Jane Doe
-                <div class="contact_info">
-                <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-                jdoe@jeemail.com
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        .nav_bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            padding: 15px;
+        }
+
+        .nav_bar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 18px;
+        }
+
+        .nav_bar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Dropdown Menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropbtn {
+            cursor: pointer;
+            padding: 10px 15px;
+            color: white;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 150px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            .nav_bar {
+                flex-direction: column;
+            }
+            .nav_bar a {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav_bar">
+            <a href="#home" aria-label="Go to Home">Home</a>
+            
+            <div class="dropdown">
+                <a class="dropbtn" href="#portfolio" aria-label="View Portfolio">Portfolio ▼</a>
+                <div class="dropdown-content">
+                    <a href="#about-me">About Me</a>
+                    <a href="#resume">Résumé</a>
+                    <a href="#personal-life">Personal Adventures</a>
+                    <a href="#blog">Blog</a>
+                </div>
             </div>
-            <div style="clear:both;"></div>
-            <div class="contact_info">
-                <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-                +13456764598
-    
-            </div>
-            </div>
-            <div class="topdiv">
-              <div class="nav_bar">
-                  <a href="#home">Home</a>
-                  <div class="dropdown">
-                  <a class="dropbtn" href="#portfolio">Portfolio</a>
-                    <div class="dropdown-content">
-                      <a href="#about-me">About Me</a>
-                      <a href="#resume">Résumé</a>
-                      <a href="#personal-life">Personal Adventures</a>
-                      <a href="#blog">Blog</a>
-                    </div>
-                  </div>
-                <a href="#wordle">Wordle</a>
-                <a href="#to-do">To-Do Adventure Game</a>
-                <a href="#misc">Misc</a>
-               </div>
-            </div>
-            </div>    
-        </nav>
-        
+
+            <a href="#wordle" aria-label="Play Wordle">Wordle</a>
+            <a href="#to-do" aria-label="To-Do Adventure Game">To-Do Adventure Game</a>
+            <a href="#misc" aria-label="Miscellaneous Content">Misc</a>
+        </div>
+    </nav>
+
+</body>
 </html>
