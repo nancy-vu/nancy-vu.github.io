@@ -4,59 +4,124 @@
         <title>Personal Portfolio</title>
         <link rel="stylesheet" href="./style.css"/>
         <script src="./script.js"></script>
+    <style>
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Portfolio Page Layout */
+        .portfolio-container {
+            display: flex;
+            flex-direction: column; /* Stack sections vertically */
+            align-items: center; /* Center content */
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+        }
+
+        /* Section Styling */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Profile Image */
+        .profile_image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 24px;
+            color: #651693;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+    </style>
     </head>
+  
+    <body>
      <!-- Navigation Bar -->
         <nav>
             <div id="home">
             <div class="profile_name">
                 Nancy Vu
                 <div class="contact_info">
-                <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
                 nancyvu2002@gmail.com
             </div>
             <div style="clear:both;"></div>
             <div class="contact_info">
-                <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
                 +16233267252
-    
             </div>
             </div>
             <div class="topdiv">
                 <a class="topmenu" href="#about-me">About Me</a>
-                <!-- Add the links for Skills, Projects -->
-    
+                <a class="topmenu" href="#resume">Résumé</a>
+                <a class="topmenu" href="#personal-life">Personal Adventures</a>
+                <a class="topmenu" href="#blog">Blog</a>
             </div>
             </div>    
         </nav>
 
+                /* Typography */
+        h1 {
+            font-size: 24px;
+            color: #651693;
+            margin-bottom: 10px;
+        }
 
-        <section id="about-me" class="container">
-            <div>
-              <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
-            </div>
-      
-            <div>
-                <h1>
-                  Hi, I'm Nancy Vu! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
-                </h1>
-                <p>
-                  Insert an about me statement here
-                  Insert about me statement
-                  Insert
-                </p>
-            </div>
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+
+
+        <div class="portfolio-container">
+          <!-- About Me Section -->
+          <section id="about-me" class="container">
+              <img src="https://unsplash.com/photos/a-close-up-of-a-cat-looking-at-the-camera-Hzu0-51klr4" class="profile_image"/>
+              <h1>Hi, I'm Nancy Vu!</h1>
+              <p>Insert an about me statement here. Insert about me statement. Insert more about me.</p>
           </section>
-
+  
+          <!-- Resume Section -->
           <section id="resume" class="container">
-            <div>
-                <h1>
-                  Hi, I'm Nancy Vu! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
-                </h1>
-                <p>
-                  Insert an about me statement here
-                  Insert about me statement
-                  Insert
-                </p>
-            </div>
+              <h1>Résumé</h1>
+              <p>Insert your résumé details here. Highlight skills, experiences, and education.</p>
           </section>
+  
+          <!-- Projects Section -->
+          <section id="projects" class="container">
+              <h1>Projects</h1>
+              <p>Insert details about your projects here. Showcase your best work!</p>
+          </section>
+      </div>
+
+
+  </body>
 </html>
