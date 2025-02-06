@@ -21,10 +21,13 @@
         .nav_bar {
             position: fixed;
             display: flex;
-            justify-content: right;
+            justify-content: space-between;
             align-items: center;
             background-color: #8083e6;
             padding: 15px;
+            top: 0;
+            left: 0;
+            width: 100%;
         }
 
         .nav_bar a {
@@ -37,6 +40,16 @@
         .nav_bar a:hover {
             background-color: #cf89eb;
             border-radius: 5px;
+        }
+
+        .nav-left {
+        flex: 1; /* Takes up available space on the left */
+        }
+
+        .nav-right {
+        display: flex;
+        justify-content: flex-end; /* Aligns the links to the right */
+        gap: 15px; /* Adds spacing between links */
         }
 
         /* Dropdown Menu */
@@ -126,21 +139,24 @@
 
     <nav>
         <div class="nav_bar">
+            <div class="nav-left"> 
             <a href="#home" aria-label="Go to Home">Home</a>
-            
+            </div>
+
+            <div class="nav-right">
             <div class="dropdown">
                 <a class="dropbtn" href="portfolio.html">Portfolio ▼</a>
                 <div class="dropdown-content">
                     <a href="portfolio.html#about-me">About Me</a>
                     <a href="portfolio.html#resume">Résumé</a>
                     <a href="portfolio.html#personal-life">Personal Adventures</a>
-                    <a href="portfolio.html#blog">Blog</a> 
                 </div>
             </div>
 
             <a href="wordle.html" aria-label="Play Wordle">Wordle</a>
             <a href="#to-do" aria-label="To-Do Adventure Game">To-Do Adventure Game</a>
             <a href="#misc" aria-label="Miscellaneous Content">Misc</a>
+            </div>
         </div>
     </nav>
 
