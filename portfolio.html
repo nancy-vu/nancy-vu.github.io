@@ -42,6 +42,22 @@
             text-decoration: underline;
         }
 
+        .home-button {
+        color: lightgray;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        transition: 0.3s ease-in-out;
+}
+
+        .home-button:hover {
+            background-color: #9b0e0eea;
+            color: white;
+            border-radius: 5px;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+
         /* Portfolio Page Layout */
         .portfolio-container {
             display: flex;
@@ -143,11 +159,14 @@
      <!-- Navigation Bar -->
         <nav>
             <div class="navbar">
-                <a href="index.html">Home</a>
-                <a href="#about-me">About Me</a>
-                <a href="#resume">Résumé</a>
-                <a href="#personal-life">Personal Adventures</a>
-                <a href="#blog">Blog</a>
+                <div class="nav-left">
+                    <a href="index.html" class="home-button">🏠</a>
+                </div>
+                <div class="nav-right">
+                    <a href="#about-me">About Me</a>
+                    <a href="#resume">Résumé</a>
+                    <a href="#personal-life">Personal Adventures</a>
+                </div>
             </div>  
         </nav>
 
