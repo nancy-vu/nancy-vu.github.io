@@ -75,11 +75,25 @@
             margin-bottom: 20px;
         }   
 
-        /* About Me */ 
-        
-        #about-me {
+        /* Image Gallery */ 
+        .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+        gap: 10px; /* Space between images */
+        margin-top: 20px;
         justify-content: center;
-        align-items: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 150px; /* Adjust height as needed */
+            object-fit: cover; /* Ensures images fit nicely */
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1); /* Zoom effect on hover */
         }
 
         /* Typography */
@@ -95,18 +109,27 @@
             color: rgb(117, 116, 116);
             font-weight: bolder;
             margin-bottom: 10px;
-            text-align: left;  
-            padding-left: 30px; 
+            text-align: left;
+            padding-left: 30px;
         }
-        
+
+        /* Paragraph Default */
         p {
             font-size: 16px;
             color: #333;
             line-height: 1.5;
-            max-width: 500px;
-            padding: 5px;
+        }
+
+        /* About Me & Personal Adventures - Centered Text */
+        #about-me, #personal-life {
             text-align: center;
         }
+
+        #about-me p, #personal-life p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
     </style>
     </head>
   
@@ -145,8 +168,11 @@
           <section id="personal-life" class="container">
               <h1>Personal Adventures</h1>
               <p>Here are some places I have visited, some activities I have enjoyed outside of data and statistics!</p>
-          </section>
-          </div>
+              <div class="gallery">
+              </div>
+                
+        </section>
+      
 
 
   </body>
