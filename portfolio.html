@@ -13,17 +13,17 @@
 
         /* Navigation Bar */
         .navbar {
-        position: fixed; /* Keeps it at the top while scrolling */
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         background-color: #651693;
-        padding-right: 1cm;
+        padding: 10px 20px;
         display: flex;
-        justify-content: flex-end; 
+        justify-content: space-between; /* Separates left and right sections */
         align-items: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        z-index: 1000; /* Ensures navbar stays above other content */
+        z-index: 1000;
         }
 
         .navbar a {
@@ -42,6 +42,16 @@
             text-decoration: underline;
         }
 
+        .nav-left {
+        flex: 1; /* Takes up available space on the left */
+        }
+
+        .nav-right {
+        display: flex;
+        justify-content: flex-end; /* Aligns the links to the right */
+        gap: 15px; /* Adds spacing between links */
+        }
+
         .home-button {
         color: lightgray;
         text-decoration: none;
@@ -49,7 +59,6 @@
         font-size: 18px;
         transition: 0.3s ease-in-out;
 }
-
         .home-button:hover {
             background-color: #9b0e0eea;
             color: white;
