@@ -6,58 +6,60 @@
     <title>Personal Widgets</title>
     <style>
 
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            overflow-x: hidden; /* Prevents horizontal scrolling */
-            scroll-behavior: smooth; 
-        }
-
-        /* Navigation Bar */
-        .nav_bar {
+         /* Navigation Bar */
+         .navbar {
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #8083e6;
+        background-color: #651693;
         padding: 10px 20px;
         display: flex;
         justify-content: space-between; 
         align-items: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         z-index: 1000;
-        margin: 0 auto;
         }
 
-        .nav_bar a {
-            color: white;
+        .navbar a {
+            color: lightgray;
             text-decoration: none;
             padding: 10px 20px;
             font-size: 18px;
             transition: 0.3s ease-in-out;
         }
 
-        .nav_bar a:hover {
-            background-color: #cf89eb;
+        .navbar a:hover {
+            background-color: #8083e6;
+            color: white;
             border-radius: 5px;
             font-weight: bolder;
         }
 
-        /* Home Button */
         .nav-left {
-            flex: 1;
+        flex: 1; 
         }
 
-        /* Right Side Links */
         .nav-right {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            gap: 15px; 
-            flex-grow: 1;
-            flex-wrap: wrap; 
-            max-width: 60%; 
+        display: flex;
+        justify-content: flex-end; 
+        gap: 15px; 
+        }
+
+        .home-button {
+        color: lightgray;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        transition: 0.3s ease-in-out;    
+        }
+
+        .home-button:hover {
+            background-color: #9b0e0eea;
+            color: white;
+            border-radius: 5px;
+            font-weight: bolder;
+            text-decoration: underline;
         }
 
         /* Dropdown Menu */
