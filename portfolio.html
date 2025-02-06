@@ -55,15 +55,24 @@
 
         /* Section Styling */
         .container {
-            display: flex;
-            flex-direction: column;
-            width: 80%;
-            max-width: 800px;
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* Centers everything inside */
+        text-align: center;
+        width: 80%;
+        max-width: 800px;
+        background: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Resume-Specific Container (Left-Aligned) */
+        .resume-container {
+            align-items: flex-start;  /* Align content to the left */
+            text-align: left;
+            padding-left: 30px;
         }
 
         /* Profile Image */
@@ -109,8 +118,6 @@
             color: rgb(117, 116, 116);
             font-weight: bolder;
             margin-bottom: 10px;
-            text-align: left;
-            padding-left: 30px;
         }
 
         /* Paragraph Default */
@@ -118,18 +125,10 @@
             font-size: 16px;
             color: #333;
             line-height: 1.5;
+            max-width: 500px;
+            padding: 5px;
         }
 
-        /* About Me & Personal Adventures - Centered Text */
-        #about-me, #personal-life {
-            text-align: center;
-        }
-
-        #about-me p, #personal-life p {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
     </style>
     </head>
   
@@ -172,8 +171,6 @@
               </div>
                 
         </section>
-      
-
 
   </body>
 </html>
