@@ -13,15 +13,17 @@
 
         /* Navigation Bar */
         .navbar {
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #651693;
-            float: right;
-            padding-right: 1cm;
-            display: flex;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            z-index: 1000; /* Ensures navbar stays above other content */
+        position: fixed; /* Keeps it at the top while scrolling */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #651693;
+        padding-right: 1cm;
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000; /* Ensures navbar stays above other content */
         }
 
         .navbar a {
