@@ -43,11 +43,20 @@
             font-weight: bolder;
         }
 
-        .nav-right {
-        display: flex;
-        gap: 15px; 
-        align-items: center;
+        /* Home Button */
+        .nav-left {
+            display: flex;
+            align-items: center;
         }
+
+        /* Right Side Links */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px; 
+            flex-wrap: wrap; 
+            max-width: 70%; 
+}
 
         /* Dropdown Menu */
         .dropdown {
@@ -125,7 +134,9 @@
 
     <nav>
         <div class="nav_bar">
+            <div class="nav-left"
             <a href="index.html" aria-label="Go to Home">🏠</a>
+            </div>
             <div class="nav-right">
             <div class="dropdown">
                 <a class="dropbtn" href="portfolio.html">Portfolio ▼</a>
