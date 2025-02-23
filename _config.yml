@@ -4,7 +4,7 @@ url: http://localhost:4000
 baseurl: ""
 theme: "minima"  # Choose your desired theme here (or leave blank for custom styles)
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title/
 exclude:
   - Gemfile
   - Gemfile.lock

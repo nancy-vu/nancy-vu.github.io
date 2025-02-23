@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/blog-style.css">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/blog-style.css' | relative_url }}">
 </head>
 <body>
     <header>
@@ -31,13 +31,13 @@
             <div class="recent-posts">
                 <h2>Recent Posts</h2>
                 <ul>
-                    
+                    {% for post in site.posts limit:5 %}
                         <li>
-                            <a href="/2025/02/19/my-first-post/">The Start of an Adventure</a>
-                            <p><small>February 19, 2025</small></p>
-                            <p><small>For my first day of creating this blog, I set up Jekyll on my computer in order to create a list of recent posts. Then, I plan on writing Markdown and HTML files in order to stylize the individual blog posts and my blog page overall. In the process, I need to do file clean up between my existing repository and the new organization to work with Jekyll.</small></p>
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                            <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+                            <p><small>{{ post.summary }}</small></p>
                         </li>
-                    
+                    {% endfor %}
                 </ul>
             </div>
 
