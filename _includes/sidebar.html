@@ -1,0 +1,15 @@
+<aside class="sidebar">
+    <h2>Suggested Posts</h2>
+    <ul>
+      {% assign current_post = page.url %}
+      {% for post in site.posts %}
+        {% if post.url != current_post %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+        {% if forloop.index == 10 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </aside>
+  

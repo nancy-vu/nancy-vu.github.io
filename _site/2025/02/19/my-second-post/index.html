@@ -1,0 +1,94 @@
+<!-- _layouts/post.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2: Massive Cleanup on Aisle 5!</title> 
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/post-style.css">    
+</head>
+<body>
+    <!-- Navigation Bar  & Header -->
+    <header>
+<nav>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="/" class="home-button">🏠</a>
+        </div>
+        <div class="nav-right">
+            <a href="/portfolio/"> Portfolio</a>
+            <a href="#projects">Projects</a>
+            <a href="#comment">Contact Me!</a>
+        </div>
+    </div>  
+</nav>
+</html>
+</header>
+
+    
+    <main>
+        <div class="content-wrapper">
+            <!-- Main Post Content -->
+            <div class="post-content">
+                <h1>Day 2: Massive Cleanup on Aisle 5!</h1>
+                <p class="date">February 19, 2025</p>
+                <div class="content">
+                    <p><strong>Some steps I took today (will revisit to flesh out more!):</strong></p>
+<ul>
+  <li>Created an “_includes” folder for my universal HTML blocks (e.g. header.html, footer.html, sidebar.html).</li>
+  <li>Created a “pages” folder for all the individual pages of my site, including the homepage, the portfolio page, and the blog homepage.</li>
+  <li>Created additional layout HTML files and simplified my existing ones so they are more universal.</li>
+  <li>Created additional CSS styling pages for the unique pages and elements (footer, blog vs posts).</li>
+  <li>Added a footer with social media icons and links.</li>
+  <li>Converted all old HTML files for my pages to Markdown files that have cleaner code.</li>
+</ul>
+
+<p><strong>Some notes on HTML &amp; CSS formatting that I learned in the process!</strong></p>
+
+<h4 id="to-do-list">To-Do List</h4>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Create tags for my posts so that my suggested posts includes only posts related to the topic. Maybe list all the tags under the title of my blog posts (on the main page and the block page!) <strong>(medium priority)</strong></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Create a comment box at the bottom of posts. Use a similar format for my contact box! (test drive a few times on an alt email!) <strong>(medium priority)</strong>
+    <ul>
+      <li>ask for alias/anonymous name</li>
+      <li>[for contact box] ask for email/phone number</li>
+      <li>comment</li>
+      <li>post button</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add a “last edited” part near the publication date? Learn how to make that automated based on commit logs or something? <strong>(high priority!)</strong></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Create a share button. <strong>(low priority)</strong></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Finish all my details on the how-tos that I completed for the first two parts of my blog creation process. Want to make this blog also a resource for others who view it! <strong>(high priority!)</strong></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Create pop-ups by writing JS script files! <strong>(low priority – for this step in my journey at least!)</strong></li>
+</ul>
+ <!-- Post content rendered from markdown -->
+                </div>
+            </div>
+
+            <!-- Include Sidebar with Recent Posts -->
+            <aside class="sidebar">
+    <h2>Suggested Posts</h2>
+    <ul>
+      
+      
+        
+        
+      
+        
+          <li><a href="/2025/02/19/my-first-post/">The Start of an Adventure</a></li>
+        
+        
+      
+    </ul>
+  </aside>
+  
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>

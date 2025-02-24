@@ -5,50 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/blog-style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/blog-style.css' | relative_url }}">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-     <!-- Navigation Bar -->
-     <nav>
-        <div class="navbar">
-            <div class="nav-left">
-                <a href="/index.html" class="home-button">🏠</a>
-            </div>
-            <div class="nav-right">
-                <a href="/portfolio.html">Portfolio</a>
-                <a href="#projects">Projects</a>
-                <a href="#comment">Leave a Comment</a>
-            </div>
-        </div>  
-    </nav>
-
-    </header>
+     <!-- Navigation Bar  & Header -->
+     {% include header.html %}
 
     <main>
-        <div class="content-wrapper">
-            <!-- Recent Posts Box -->
-            <div class="recent-posts">
-                <h2>Recent Posts</h2>
-                <ul>
-                    {% for post in site.posts limit:5 %}
-                        <li>
-                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                            <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
-                            <p><small>{{ post.summary }}</small></p>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <!-- Table of Contents (TOC) -->
-            <div class="sidebar">
-                <h3>Table of Contents</h3>
-                <ul>
-                    <li><a href="#section1">Section 1</a></li>
-                    <li><a href="#section2">Section 2</a></li>
-                </ul>
-            </div>
+        <div class="content">
+            {{ content }} 
         </div>
     </main>
 

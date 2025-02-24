@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title> 
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/post-style.css' | relative_url }}">    
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- Navigation Links -->
-        </nav>
-    </header>
+    <!-- Navigation Bar  & Header -->
+    {% include header.html %}
 
+    
     <main>
-        <div class="post-content">
-            <h1>{{ page.title }}</h1>
-            <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
-            <div class="content">
-                {{ content }} <!-- Full post content -->
+        <div class="content-wrapper">
+            <!-- Main Post Content -->
+            <div class="post-content">
+                <h1>{{ page.title }}</h1>
+                <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+                <div class="content">
+                    {{ content }} <!-- Post content rendered from markdown -->
+                </div>
             </div>
+
+            <!-- Include Sidebar with Recent Posts -->
+            {% include sidebar.html %}
         </div>
     </main>
 

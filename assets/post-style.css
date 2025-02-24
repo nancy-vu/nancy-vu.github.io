@@ -61,72 +61,26 @@ transition: 0.3s ease-in-out;
     text-decoration: underline;
 }
 
-/* Wrapper for content and sidebar */
-
+/* Flexbox container for post content and sidebar */
 .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    display: flex; /* Align post content and sidebar side by side */
+    gap: 20px; /* Space between the two sections */
     margin-top: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Recent Posts Box */
-.recent-posts {
-    flex: 2; /* This section will take up 2 parts of the space */
+/* Styling for the main post content */
+.post-content {
+    flex: 4; 
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-.recent-posts h2 {
     margin-top: 45px;
 }
 
-.recent-posts ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.recent-posts li {
-    margin-bottom: 10px;
-}
-
-.recent-posts a {
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-}
-
-.recent-posts a:hover {
-    text-decoration: underline;
-}
-
-.post-content .content {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-/* Title styling */
-.post-content h1 {
-    margin-top: 45px;
-    margin-left: 20px;
-    font-size: 2rem;
-    color: #333;
-}
-
-.post-content .date {
-    margin-left: 20px;
-}
-
-/* Sidebar with Table of Contents */
+/* Styling for the sidebar (recent posts) */
 .sidebar {
-    flex: 1; /* This section will take up 1 part of the space */
+    flex: 1; /* Sidebar takes 1 part of the space */
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
@@ -134,13 +88,14 @@ transition: 0.3s ease-in-out;
     margin-top: 45px;
 }
 
-/* Optional: Add responsiveness */
+/* Optional: Add responsiveness for smaller screens */
 @media (max-width: 768px) {
     .content-wrapper {
-        flex-direction: column; /* Stack content and sidebar on smaller screens */
+        flex-direction: column; /* Stack content and sidebar vertically on small screens */
     }
 
-    .recent-posts, .sidebar {
+    /* On smaller screens, each section takes full width */
+    .post-content, .sidebar {
         flex: 1;
         margin-bottom: 20px;
     }

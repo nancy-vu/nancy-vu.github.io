@@ -1,0 +1,50 @@
+/* Footer Styling */
+footer {
+    border-top: 2px solid black;
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Flexbox for the social media container */
+  .social-media ul {
+    display: flex; 
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove bullets */
+  }
+  
+  .social-media ul li {
+    margin: 0 10px; /* Space between icons */
+  }
+  
+  /* Style the anchor tags and icons */
+  .social-media a {
+    color: black;
+    font-size: 24px; /* Icon size */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .social-media i {
+    font-size: 25px; /* Icon size */
+  }
+
+  /* Make social media icons stack on small screens */
+@media (max-width: 600px) {
+    .social-media ul {
+      text-align: center;
+    }
+  
+    .social-media ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  

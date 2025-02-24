@@ -17,7 +17,7 @@ display: flex;
 justify-content: space-between; 
 align-items: center;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-z-index: 1000;
+z-index: 1000; /* make sure it stays fixed! */
 }
 
 .navbar a {
@@ -68,6 +68,7 @@ transition: 0.3s ease-in-out;
     justify-content: space-between;
     gap: 20px;
     margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Recent Posts Box */
@@ -81,7 +82,7 @@ transition: 0.3s ease-in-out;
 }
 
 .recent-posts h2 {
-    margin-top: 0;
+    margin-top: 45px;
 }
 
 .recent-posts ul {
@@ -103,6 +104,26 @@ transition: 0.3s ease-in-out;
     text-decoration: underline;
 }
 
+.post-content .content {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Title styling */
+.post-content h1 {
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.post-content .date {
+    margin-left: 20px;
+}
+
 /* Sidebar with Table of Contents */
 .sidebar {
     flex: 1; /* This section will take up 1 part of the space */
@@ -110,6 +131,7 @@ transition: 0.3s ease-in-out;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 45px;
 }
 
 /* Optional: Add responsiveness */

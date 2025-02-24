@@ -20,10 +20,10 @@ Using Homebrew, I installed Ruby (brew install ruby). Though Ruby is usually alr
 
 ... more details tbd
 
-### To-Do List 
+#### To-Do List 
 
 - [x] Write first two blog posts (or templates) and see how they appear on the main site. **(High Priority!!)**
-- [ ] Create four layout files. One for the main homepage, one for blog homepage, one for portfolio, and one for the blog posts. (Unless I should be stylizing the homepage in some other way.. will continue thinking!) **(High Priority!!)**
-- [ ] Clean up my files and remove duplicates.  **(Medium Priority)**
+- [x] Create four layout files. One for the main homepage, one for blog homepage, one for portfolio, and one for the blog posts. (Unless I should be stylizing the homepage in some other way.. will continue thinking!) **(High Priority!!)**
+- [x] Clean up my files and remove duplicates.  **(Medium Priority)**
 - [ ] Review typesetting / LaTex integration rules. **(Medium-Low Priority)** 
 - [ ] Clean up my code so it is more readable.. add comments and remove inefficient lines.  **(Last task -- "low" priority)**
