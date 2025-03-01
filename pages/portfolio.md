@@ -184,7 +184,7 @@ permalink: /portfolio/
 <div class="portfolio-container">
           <!-- About Me Section -->
           <section id="about-me" class="container">
-              <img src="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5" class="profile_image">
+              <img src="/assets/images/profilepicture.png" class="profile_image">
               <h1>Hi, I'm Nancy Vu!</h1>
               <p>I am a recent graduate from Swarthmore College with a passion for social work and statistics. I aspire to use data for social change and public good.</p>
               <p>I am currently looking for professional experience using my knowledge of SQL, R, and (hopefully) JavaScript for non-profit organizations and local initiatives, rather than staying within the academic realm.</p>
@@ -194,7 +194,8 @@ permalink: /portfolio/
 <section id="resume" class="resume-container">
             <h1>Résumé</h1>
             <h2>Education</h2>
-            <p>Swarthmore College</p>
+            <p>Swarthmore College</p> 
+            <p>B.A. in Political Sociology and Statistics</p>
                 <ul>
                     <li>3.87 GPA</li>
                     <li>QuestBridge Scholar</li>
