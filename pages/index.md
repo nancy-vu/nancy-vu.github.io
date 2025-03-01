@@ -154,7 +154,7 @@ permalink: /
                 </div>
             </div>
             <a href="{{'/#projects' | relative_url }}">Projects</a>
-            <a href="{{'/blog/' | relative_url}}" >Blog</a>
+            <a href="{{'blog/' | relative_url}}" >Blog</a>
         </div>
     </div>
 </nav>

@@ -19,6 +19,10 @@ categories: blog
 #### To-Do List
 
 - [ ] Create tags for my posts so that my suggested posts includes only posts related to the topic. Maybe list all the tags under the title of my blog posts (on the main page and the block page!) **(medium priority)**
+- [ ] Add photos to my blog posts! **(high priority)** 
+    - Step-by-step guides
+    - Models for file organization with Jekyll, etc.
+    - Add to my gallery in my personal portfolio!
 - [ ] Create a comment box at the bottom of posts. Use a similar format for my contact box! (test drive a few times on an alt email!) **(medium priority)**
     - ask for alias/anonymous name
     - [for contact box] ask for email/phone number

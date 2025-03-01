@@ -96,7 +96,7 @@ permalink: /portfolio/
 
         /* Resume-Specific Container (Left-Aligned) */
         .resume-container {
-            align-items: flex-start;  /* Align content to the left */
+            align-items: flex-start; 
             text-align: left;
             padding-left: 30px;
             width: 80%;
@@ -157,9 +157,8 @@ permalink: /portfolio/
         p {
             font-size: 16px;
             color: #333;
-            line-height: 1.5;
+            line-height: 1.5; 
             max-width: 500px;
-            padding: 5px;
         }
 
 </style>
@@ -195,7 +194,12 @@ permalink: /portfolio/
 <section id="resume" class="resume-container">
             <h1>Résumé</h1>
             <h2>Education</h2>
-            <p>Insert your résumé details here. Highlight skills, experiences, and education.</p>
+            <p>Swarthmore College</p>
+                <ul>
+                    <li>3.87 GPA</li>
+                    <li>QuestBridge Scholar</li>
+                    <li>Richard Rubin Scholar</li>
+                </ul>
             <h2>Work Experience</h2>
             <h2>Skills</h2>
           </section>
@@ -203,7 +207,7 @@ permalink: /portfolio/
 <!-- Personal Adventures Section -->
 <section id="personal-life" class="container">
               <h1>Personal Adventures</h1>
-              <p>Here are some places I have visited, some activities I have enjoyed outside of data and statistics!</p>
+              <p>Here are some places I have visited and some activities I have enjoyed outside of data and statistics!</p>
               <div class="gallery">
               </div>
             </section>
