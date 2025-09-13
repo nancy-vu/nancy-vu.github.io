@@ -105,7 +105,6 @@ permalink: /
     display: block;
   }
 
-  /* Home Section */
   .home {
     display: flex;
     flex-direction: column;
@@ -121,6 +120,7 @@ permalink: /
     height: 300px;
     object-fit: cover;
     margin-bottom: 20px;
+   /* background-image: url('https://via.placeholder.com/150'); */
   } 
 
   .home h1 {
