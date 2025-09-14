@@ -37,9 +37,9 @@ Additionally, I want to add more creative elements to my writing because I am so
 
 I hope the future editions of this website will be something lovely to look back on, and a source of genuine growth for me and anyone around me. Who knows though. It might just start and end within a month (hopefully not). Best wishes until then.
 
-## To-Do List for Self
+#### To-Do List for Self
 
-- [ ] Add tags
+- Add tags [ ]
 - [ ] Create a page for reading lists
 - [ ] Incorporate and have discourse with other creative outlets, references in my posts (other bloggers, books, music, art, etc) 
 - [ ] Add edit logs
