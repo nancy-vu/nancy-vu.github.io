@@ -20,6 +20,7 @@ tags: [dev, archive]
 - Update portfolio so that it is more detailed and captures my present-day info
 - Add pictures to posts and to other parts of site (e.g. personal adventures)
 - Update main blog page to include archive and dev update such as this. 
+- Update projects page to include non-coding projects (art, poetry, etc... separated into categories/tags!) **(map this out on paper)**
 
 ## Archives
 ### Categories
