@@ -1,4 +1,5 @@
 <aside class="sidebar">
+<<<<<<< HEAD
   <h2>Other Posts</h2>
 <ul>
   {% assign current_post = page.url %}
@@ -11,4 +12,27 @@
     {% endif %}
   {% endfor %}
 </ul>
+=======
+    <h2>Suggested Posts</h2>
+    <ul>
+      {% assign current_post = page.url %}
+      {% for post in site.posts %}
+        {% if post.url != current_post %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+        {% if forloop.index == 10 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    {% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+>>>>>>> parent of e345d87 (add tags)
   </aside>
