@@ -51,5 +51,5 @@ I hope the future editions of this website will be something lovely to look back
 
 
 *last edited: september 15th, 2025*
-*edit log:*
+<br>*edit log:*
 - *september 15th, 2025: grammar edits, expansion on ideas about violence and accountability, extra notes on ideas to explore about returning to Vietnam aka the "homeland" and experiencing parts of home that were so infamiliar but a part of me now*
