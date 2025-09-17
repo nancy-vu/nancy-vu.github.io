@@ -1,19 +1,4 @@
 <aside class="sidebar">
-    <h2>Similar Posts</h2>
-  <ul>
-    {% assign post_tag = post.tags}
-    {% assign current_post = page.url %}
-    {% for post in site.tags %}
-      {% if post.tags = post_tag and post.url != current_post %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-      {% if forloop.index == 10 %}
-      {% break %}
-    {% endif %}
-    {% endfor %}
-  </ul>
-{% endfor %}
-
   <h2>Other Posts</h2>
 <ul>
   {% assign current_post = page.url %}
