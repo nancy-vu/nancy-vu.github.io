@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "A Pivot from Programming"
+title: A Pivot from Programming
 date: 2025-02-27
-summary: "I reflect on my goals and place as a human in this world and how I have contended with various pressures to become something recognizable to others but not my own self. I talk about my desire to do data science but from my math roots and passion for social change rather than forcing myself to learn skills just for an income and career stability. I talk about my value as a person and not something replicable by artificial intelligence."
+summary: I reflect on my goals and place as a human in this world and how I have contended with various pressures to become something recognizable to others but not my own self. I talk about my desire to do data science but from my math roots and passion for social change rather than forcing myself to learn skills just for an income and career stability. I talk about my value as a person and not something replicable by artificial intelligence.
 categories: blog
 tags: reflection
 ---

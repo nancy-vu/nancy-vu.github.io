@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Hello World"
+title: Hello World
 date: 2025-09-13
-summary: "I revisit blogging as something I want to utilize to hold myself accountable to regular self-reflection and checking my own progress towards becoming the person I want to be, both in society and in community with those I love. I discuss my goals with the blog and this website at large, how I want to approach improving the aesthetics and usability for readers, and make it a space I am proud of even though I have no audience I intend to share my thoughts with."
+summary: I revisit blogging as something I want to utilize to hold myself accountable to regular self-reflection and checking my own progress towards becoming the person I want to be, both in society and in community with those I love. I discuss my goals with the blog and this website at large, how I want to approach improving the aesthetics and usability for readers, and make it a space I am proud of even though I have no audience I intend to share my thoughts with.
 categories: blog
 tags: reflection
 ---

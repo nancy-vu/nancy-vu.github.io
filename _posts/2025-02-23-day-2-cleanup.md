@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Day 2: Massive Cleanup on Aisle 5!"
+title: Day 2: Massive Cleanup on Aisle 5!
 date: 2025-02-23
-summary: "On the second day of blog creation, I cleaned up the layout of my site and the organization of my files so it is much much more intuitive in my repository now. I feel like I have the foundation of my blog fully set up and also fixed the HTML and Markdown integration for other pages of my site besides the blog. I have fixed all my permalinks and created a new folder to host any of my repeated code (e.g. footers and headers across all pages) so I am not writing the same block in every layout or page." 
+summary: On the second day of blog creation, I cleaned up the layout of my site and the organization of my files so it is much much more intuitive in my repository now. I feel like I have the foundation of my blog fully set up and also fixed the HTML and Markdown integration for other pages of my site besides the blog. I have fixed all my permalinks and created a new folder to host any of my repeated code (e.g. footers and headers across all pages) so I am not writing the same block in every layout or page. 
 categories: blog
 tags: project
 ---
