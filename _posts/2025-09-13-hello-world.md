@@ -43,10 +43,10 @@ I hope the future editions of this website will be something lovely to look back
 
 #### To-Do List for Self
 
-- [ ] Add tags
+- [x] Add tags
 - [ ] Create a page for reading lists
 - [ ] Incorporate and have discourse with other creative outlets, references in my posts (other bloggers, books, music, art, etc) 
-- [ ] Add edit logs
+- [x] Add edit logs
 - [ ] Clean up links for usability... improve searchability of certain resources
 
 
