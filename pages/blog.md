@@ -15,7 +15,7 @@ permalink: /blog/
                 {% for post in site.posts limit:5 %}
                      <li>
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                        <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+                        <p><small>{{ post.date | date: "%B %d, %Y" }} | {{ post.tags }}</small></p>
                         <p><small>{{ post.summary }}</small></p>
                     </li>
                 {% endfor %}
@@ -30,7 +30,6 @@ permalink: /blog/
                 <li>
                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                     <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
-                    <p><small> tags: {{ post.tags }} </small></p>
                 </li>
             {% endfor %}
         </ul>
