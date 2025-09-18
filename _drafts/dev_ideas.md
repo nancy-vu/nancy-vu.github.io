@@ -11,6 +11,7 @@ tags: [dev, archive]
 - Fix the footer so that it floats with scrolling (maybe?)
 - Add all my other socials
 - Update dropdown colors in the header html
+- Create gallery features and adjust image display and perusing aesthetics + mechanics
 
 ### Interactivity
 - Add comment features if possible
@@ -25,6 +26,7 @@ tags: [dev, archive]
 ## Archives
 ### Categories
 - Create categories besides blogging for other website features (e.g. dev notes, resources, lists)
+- Create template for different pages (e.g. recipes/food/lifestyle content, travel content)
 
 ### Tagging
 - tags page or means of searching by tags
