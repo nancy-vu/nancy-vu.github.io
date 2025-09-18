@@ -84,7 +84,7 @@ permalink: /
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:rgb(137, 50, 187);
+    background-color:rgb(180, 71, 242);
     min-width: 150px;
     box-shadow: 0px 4px 8px rgba(212, 199, 199, 0.2);
     border-radius: 5px;
