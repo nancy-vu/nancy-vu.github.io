@@ -84,7 +84,7 @@ permalink: /
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(141, 237, 196);
+    background-color: #651693;
     min-width: 150px;
     box-shadow: 0px 4px 8px rgba(212, 199, 199, 0.2);
     border-radius: 5px;
@@ -98,7 +98,7 @@ permalink: /
   }
 
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #8083e6;
   }
 
   .dropdown:hover .dropdown-content {
