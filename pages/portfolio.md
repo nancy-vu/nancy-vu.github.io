@@ -172,7 +172,7 @@ permalink: /about/
                     <a href="/" class="home-button">🏠</a>
                 </div>
                 <div class="nav-right">
-                    <a href="#about-me">About Me</a>
+                    <a href="#summary">Personal Summary</a>
                     <a href="#resume">Résumé</a>
                     <a href="#personal-life">Personal Adventures</a>
                     <a href="/blog/">Blog</a>"
@@ -183,7 +183,7 @@ permalink: /about/
 
 <div class="portfolio-container">
           <!-- About Me Section -->
-          <section id="about-me" class="container">
+          <section id="summary" class="container">
               <img src="/assets/images/profilepicture.png" class="profile_image">
               <h1>Hi, I'm Nancy Vu!</h1>
               <p>I am a recent graduate from Swarthmore College with a passion for social work and statistics. I aspire to use data for social change and public good.</p>

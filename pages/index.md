@@ -144,10 +144,10 @@ permalink: /
         </div>
         <div class="nav-right">
             <div class="dropdown">
-                <a class="dropbtn" href="{{ 'portfolio/' | relative_url }}">Portfolio ▼</a>
+                <a class="dropbtn" href="{{ 'about/' | relative_url }}">About Me ▼</a>
                 <div class="dropdown-content">
-                    <a href="{{ 'portfolio/#about-me' | relative_url }}">About Me</a>
-                    <a href="{{ 'portfolio/#resume' | relative_url }}">Résumé</a>
+                    <a href="{{ 'about/#summary' | relative_url }}">Personal Summary</a>
+                    <a href="{{ 'about/#resume' | relative_url }}">Résumé</a>
                     <a href=
                     "{{'portfolio/#personal-life' | relative_url }}" >Personal Adventures</a>
                 </div>
