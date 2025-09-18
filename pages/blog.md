@@ -4,7 +4,6 @@ title: Nancy's Blog
 permalink: /blog/
 ---
 
-
 <div class="content-wrapper">
     <div class="recent-posts">
         <h2>Welcome to my Blog!</h2>

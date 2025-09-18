@@ -126,7 +126,7 @@ transition: 0.3s ease-in-out;
 
 /* Sidebar with Table of Contents */
 .sidebar {
-    flex: 1; /* This section will take up 1 part of the space */
+    flex: 1; 
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;

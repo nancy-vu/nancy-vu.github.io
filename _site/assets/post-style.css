@@ -80,7 +80,7 @@ transition: 0.3s ease-in-out;
 
 /* Styling for the sidebar (recent posts) */
 .sidebar {
-    flex: 1; /* Sidebar takes 1 part of the space */
+    flex: 1; 
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
@@ -88,13 +88,12 @@ transition: 0.3s ease-in-out;
     margin-top: 45px;
 }
 
-/* Optional: Add responsiveness for smaller screens */
+/* Add responsiveness for smaller screens */
 @media (max-width: 768px) {
     .content-wrapper {
-        flex-direction: column; /* Stack content and sidebar vertically on small screens */
+        flex-direction: column;
     }
 
-    /* On smaller screens, each section takes full width */
     .post-content, .sidebar {
         flex: 1;
         margin-bottom: 20px;
