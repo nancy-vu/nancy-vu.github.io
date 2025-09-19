@@ -17,7 +17,7 @@
 
 /* Styling for the sidebar (recent posts) */
 .sidebar {
-    flex: 1; /* Sidebar takes 1 part of the space */
+    flex: 1; 
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
