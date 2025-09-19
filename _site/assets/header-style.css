@@ -75,7 +75,6 @@
 
 .dropdown-content {
   display: none;
-  flex-direction: column;
   position: absolute;
   background-color:rgb(153, 54, 210);
   min-width: 150px;
