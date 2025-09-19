@@ -67,7 +67,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  flex-direction: column;
 }
 
 .dropbtn {
@@ -76,7 +75,8 @@
 }
 
 .dropdown-content {
-  display: none;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   background-color:rgb(153, 54, 210);
   min-width: 150px;
