@@ -1,21 +1,22 @@
+
 <nav>
     <div class="navbar">
         <div class="nav-left">
             <a href="/" class="home-button">🏠</a>
         </div>
         <div class="nav-right">
-            <a href="/projects">Projects</a>
-                <div class="dropdown">
+            <div class="dropdown">
                 <a class="dropbtn" href="{{ 'about/' | relative_url }}">About Me ▼</a>
                 <div class="dropdown-content">
                     <a href="{{ 'about/#summary' | relative_url }}">Personal Summary</a>
                     <a href="{{ 'about/#resume' | relative_url }}">Résumé</a>
                     <a href=
-                    "{{'about/#personal-life' | relative_url }}" >Personal Adventures</a>
+                    "{{'portfolio/#personal-life' | relative_url }}" >Personal Adventures</a>
                 </div>
             </div>
-            <a href="#comment">Contact Me!</a>
-            <a href="{{'blog/' | relative_url}}" >Blog</a>
+            <a href="{{'/projects' | relative_url }}">Projects</a>
+            <a href="{{'/blog' | relative_url}}" >Blog</a>
+            <a href="#comment>">Contact Me!</a>
         </div>
-    </div>  
+    </div>
 </nav>
