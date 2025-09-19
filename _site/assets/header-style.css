@@ -71,6 +71,9 @@
 .dropbtn {
   cursor: pointer;
   color: white;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .dropdown-content {
@@ -82,7 +85,6 @@
   min-width: 150px;
   box-shadow: 0px 4px 8px rgba(212, 199, 199, 0.2);
   border-radius: 5px;
-  clear: both;
 }
 
 .dropdown-content a {
