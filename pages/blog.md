@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: main
 title: Nancy's Blog
 permalink: /blog/
 ---
