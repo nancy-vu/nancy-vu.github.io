@@ -1,110 +1,11 @@
 ---
-layout: default
+layout: main
 title: Home
 permalink: /
 ---
 
 <style>
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth; 
-  }       
-
-  /* Navigation Bar */
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #651693;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-
-  .navbar a {
-    color: lightgray;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    transition: 0.3s ease-in-out;
-  }
-
-  .navbar a:hover {
-    background-color: #8083e6;
-    color: white;
-    border-radius: 5px;
-    font-weight: bolder;
-  }
-
-  .nav-left {
-    flex: 1; 
-  }
-
-  .nav-right {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    gap: 15px; 
-  }
-
-  .home-button {
-    color: lightgray;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    transition: 0.3s ease-in-out;    
-  }
-
-  .home-button:hover {
-    background-color: #9b0e0eea;
-    color: white;
-    border-radius: 5px;
-    font-weight: bolder;
-    text-decoration: underline;
-  }
-
-  /* Dropdown Menu */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    align-items: center;
-  }
-
-  .dropbtn {
-    cursor: pointer;
-    color: white;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:rgb(153, 54, 210);
-    min-width: 150px;
-    box-shadow: 0px 4px 8px rgba(212, 199, 199, 0.2);
-    border-radius: 5px;
-  }
-
-  .dropdown-content a {
-    display: block;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #8083e6;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
+  
   .home {
     display: flex;
     flex-direction: column;
@@ -136,27 +37,6 @@ permalink: /
     line-height: 1.6;
   }
 </style>
-
-<nav>
-    <div class="navbar">
-        <div class="nav-left">
-            <a href="{{ '/' | relative_url }}" class="home-button">🏠</a>
-        </div>
-        <div class="nav-right">
-            <div class="dropdown">
-                <a class="dropbtn" href="{{ 'about/' | relative_url }}">About Me ▼</a>
-                <div class="dropdown-content">
-                    <a href="{{ 'about/#summary' | relative_url }}">Personal Summary</a>
-                    <a href="{{ 'about/#resume' | relative_url }}">Résumé</a>
-                    <a href=
-                    "{{'portfolio/#personal-life' | relative_url }}" >Personal Adventures</a>
-                </div>
-            </div>
-            <a href="{{'/#projects' | relative_url }}">Projects</a>
-            <a href="{{'blog/' | relative_url}}" >Blog</a>
-        </div>
-    </div>
-</nav>
 
 <!-- Home Section -->
 <div class="home">

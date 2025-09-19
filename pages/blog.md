@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: blog
 title: Nancy's Blog
 permalink: /blog/
 ---
@@ -25,7 +25,7 @@ permalink: /blog/
 <div class="sidebar">
     <h3>Table of Contents</h3>
         <ul>
-            {% for post in site.posts limit:5 %}
+            {% for post in site.posts limit:10 %}
                 <li>
                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                     <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
