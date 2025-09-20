@@ -2,7 +2,7 @@
 layout: post
 title: The World of PC Bangs: Joy in the Small Moments
 date: 2025-09-19
-summary: Last month, I visited South Korea with my sister and partner. During the trip, we frequented PC bangs across Seoul. I speak on my general observations of PC bangs and their place in South Korean culture and my personal favorites. 
+summary: Last month, I visited South Korea with my sister and partner. During the trip, we frequented PC bangs across Seoul. I speak on my general observations of PC bangs, their place in South Korean culture and society, and my personal favorites. 
 categories: travel
 tags: [culture, review, korea]
 ---
