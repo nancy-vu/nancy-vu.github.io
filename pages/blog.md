@@ -21,7 +21,6 @@ permalink: /blog/
             </ul>
     </div>
 
-<!-- Table of Contents (TOC) -->
 <div class="sidebar">
     <h3>Table of Contents</h3>
         <ul>
