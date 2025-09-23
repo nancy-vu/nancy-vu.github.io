@@ -14,7 +14,7 @@ permalink: /projects/
                 {% for post in site.categories['projects'] %}
                      <li>
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                        <p><small>{{ post.date | date: "%B %d, %Y" }} | {{ post.tags }}</small></p>
+                        <p><small>{{ post.date | date: "%B %d, %Y" }} </small></p>
                         <p><small>{{ post.summary }}</small></p>
                     </li>
                 {% endfor %}
