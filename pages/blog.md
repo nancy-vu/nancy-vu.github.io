@@ -11,8 +11,8 @@ categories: blog
         <p>In this blog, I will try to document my progress learning how to create a functional site. Then, I will branch off to making it more aesthetically pleasing (and interesting) with more interactivity if possible. Feel free to tag along this adventure with me!</p>
         <p>In general, I hope to use this blog as a way to learn how to code better and connect with anyone who wants to learn about me in a more intimate manner. As part of this project, I may ramble about my other interests, including film and media, embroidery and painting, and global political issues that I am reading about. Looking forward to exploring this project more! :)</p>
         <h2>Recent Posts</h2>
+        {% capture category %}{{ page.categories | first }}{% endcapture %}
             <ul>
-                {% capture category %}{{ page.categories | first }}{% endcapture %}
                 {% for post in site.categories[category] limit: 5 %}
                      <li>
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
