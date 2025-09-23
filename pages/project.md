@@ -11,7 +11,7 @@ permalink: /projects/
         <p>I hope that, through these projects, I may share my passion with others and invite folks into the space to collaborate with me toward a reimagined future for all people, irrespective of their social, economic, spiritual, and political background (e.g. class, race, religion, status, gender, sexuality, and the list goes on). 
         <h2>All My Projects</h2>
             <ul>
-                {% for post in site.categories['projects'] limit: 5 %}
+                {% for post in site.categories['projects'] %}
                      <li>
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                         <p><small>{{ post.date | date: "%B %d, %Y" }} | {{ post.tags }}</small></p>
@@ -19,7 +19,7 @@ permalink: /projects/
                     </li>
                 {% endfor %}
             </ul>
-            </div>
+    </div>
 
 <div class="sidebar">
     <h3>Current Projects</h3>
