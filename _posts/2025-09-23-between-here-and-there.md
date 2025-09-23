@@ -11,7 +11,5 @@ tags: thesis completed
 
 I worked on this thesis during my senior year at Swarthmore College. It was [officially published](https://works.swarthmore.edu/theses/936/) on July 1st, 2024. 
 
-Here is my thesis. 
-
-WORK IN PROGRESS
+Read my thesis [here](/assets/pdfs/Between%20Here%20and%20There_Vietnamese%20Identity%20Formation%20in%20the%20US.pdf): 
 
