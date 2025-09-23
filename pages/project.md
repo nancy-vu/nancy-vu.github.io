@@ -22,7 +22,7 @@ permalink: /projects/
     </div>
 
 <div class="sidebar">
-    <h3>Current Projects</h3>
+    <h3> Current Projects </h3>
         <ul>
             {% for post in site.tags['current'] %}
                 <li>
