@@ -22,7 +22,7 @@ permalink: /projects/
     </div>
 
 <div class="sidebar">
-    <h3>Current Projects</h3>
+    <h5>Current Projects</h3>
         <ul>
             {% for post in site.tags['current'] %}
                 <li>
@@ -30,7 +30,9 @@ permalink: /projects/
                     <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
                 </li>
             {% endfor %}
-    <h3> Completed Projects </h3>
+        </ul>
+    <h5> Completed Projects </h3>
+        <ul>
             {% for post in site.tags['completed'] %}
                 <li>
                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
