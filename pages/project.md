@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: project
 title: Projects
 permalink: /projects/
 ---
@@ -22,7 +22,7 @@ permalink: /projects/
     </div>
 
 <div class="sidebar">
-    <h4>Current Projects</h4>
+    <h3>Current Projects</h3>
         <ul>
             {% for post in site.tags['current'] %}
                 <li>
@@ -31,7 +31,7 @@ permalink: /projects/
                 </li>
             {% endfor %}
         </ul>
-    <h4> Completed Projects </h4>
+    <h3> Completed Projects </h3>
         <ul>
             {% for post in site.tags['completed'] %}
                 <li>
