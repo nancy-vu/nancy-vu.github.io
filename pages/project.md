@@ -22,7 +22,7 @@ permalink: /projects/
     </div>
 
 <div class="sidebar">
-    <h5>Current Projects</h3>
+    <h5>Current Projects</h5>
         <ul>
             {% for post in site.tags['current'] %}
                 <li>
@@ -31,7 +31,7 @@ permalink: /projects/
                 </li>
             {% endfor %}
         </ul>
-    <h5> Completed Projects </h3>
+    <h5> Completed Projects </h5>
         <ul>
             {% for post in site.tags['completed'] %}
                 <li>
