@@ -7,10 +7,11 @@ categories: blog
 tags: completed
 ---
 
-(TEST PAGE) 
-
 ### Thoughts
 
 I worked on this thesis during my senior year at Swarthmore College. 
 
 Here is my thesis. 
+
+WORK IN PROGRESS
+
