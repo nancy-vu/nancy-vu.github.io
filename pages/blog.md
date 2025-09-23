@@ -19,7 +19,7 @@ permalink: /blog/
                     </li>
                 {% endfor %}
             </ul>
-            </div>
+    </div>
 
 <!-- Table of Contents (TOC) -->
 <div class="sidebar">
