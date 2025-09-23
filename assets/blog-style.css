@@ -151,6 +151,10 @@
     margin-bottom: 20px;
 }
 
+.sidebar a {
+    font-size: 10px;
+}
+
 /* Optional: Add responsiveness */
 @media (max-width: 768px) {
     .content-wrapper {
