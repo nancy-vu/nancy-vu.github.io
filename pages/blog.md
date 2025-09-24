@@ -13,7 +13,7 @@ permalink: /blog/
             <ul>
                 {% for post in site.categories['blog'] limit: 5 %}
                      <li>
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <a href="{{ post.url | relative_url }}">{{ post.title }} </a>
                         <p><small>{{ post.date | date: "%B %d, %Y" }} | {{ post.tags }}</small></p>
                         <p><small>{{ post.summary }}</small></p>
                     </li>
