@@ -2,7 +2,7 @@
     <h2>Other Posts</h2>
     <ul>
       {% assign current_post = page.url %}
-      {% for post in site.posts %}
+      {% for post in site.categories['blog'] %}
         {% if post.url != current_post %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
