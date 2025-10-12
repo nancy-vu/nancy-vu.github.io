@@ -1,11 +1,12 @@
 <body>
     <h1>Comments</h1>
     
-    <form action="/comment_page.php">
-      <p><label for="comments">Leave a comment or suggestion!</label></p>
-      <textarea name="comment" rows="4" cols="50">Start typing here...</textarea>
-      <br>
-      <input type="submit" value="Submit">
+    <form action="/comment_page.php" method="post">
+    <p><label for="name">Name:</label></p><br>
+    <input type="text" id="name" name="name" required><br>
+    <p><label for="comments">Leave a comment or suggestion!</label></p>
+    <textarea name="comment" rows="4" cols="50" required></textarea><br>
+    <input type="submit" value="Submit">
     </form>
     
 </body>
