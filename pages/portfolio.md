@@ -125,6 +125,12 @@ permalink: /about/
                 </ul>
             <h2>Work Experience</h2>
             <h2>Skills</h2>
+                <ul>
+                    <li>General: *applied mathematics, statistical analysis, creative and policy writing, data cleaning, data querying, data reporting and visualization, copy editing, website management, Canva, SquareSpace, MailChimp*</li> 
+                    <li>Programming: *R, SQL, HTML/CSS, some JS and Python*</li>
+                    <li>Applications: *Atlas.ti, Trint, Zotero, Git/GitHub, Google Workspace, Microsoft Excel, Microsoft Office*</li>
+                    <li>Language: *Fluent in English and Vietnamese, Limited working proficiency in Spanish*</li> 
+                </ul>
           </section>
   
 <!-- Personal Adventures Section -->
