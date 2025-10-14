@@ -126,7 +126,7 @@ permalink: /about/
             <h2>Work Experience</h2>
             <h2>Skills</h2>
                 <ul>
-                    <li>General: <i>applied mathematics, statistical analysis, creative and policy writing, data cleaning, data querying, data reporting and visualization, copy editing, website management, Canva, SquareSpace, MailChimp</i></li> 
+                    <li>General: <i>applied mathematics, statistical theory and analysis, creative and policy writing, data cleaning, data querying, data reporting and visualization, copy editing, mixed-methods research, interview research and analysis, sociological theory, research ethics, website management, Canva, SquareSpace, MailChimp</i></li> 
                     <li>Programming: <i>R, SQL, HTML/CSS, some JS and Python</i></li>
                     <li>Applications: <i>Atlas.ti, Trint, Zotero, Git/GitHub, Google Workspace, Microsoft Excel, Microsoft Office</i></li>
                     <li>Language: <i>Fluent in English and Vietnamese, Limited working proficiency in Spanish</i></li> 
