@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Personal Portfolio
+title: About Me
 permalink: /about/
 ---
 
