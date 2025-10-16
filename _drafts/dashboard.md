@@ -8,6 +8,8 @@ tags: [data, current]
 <!-- Google Chart Link -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
+
+<!-- Dashboard Stylization -->
 <style>
     
     .graphBox {
@@ -16,8 +18,11 @@ tags: [data, current]
         padding: 2rem;
         margin-top: 20px;
     }
+
 </style>
 
+
+<!-- Content -->
 <div class="graphBox">
     <div id="columnchart_material" style="width: 800px; height: 300px;">
     </div>
