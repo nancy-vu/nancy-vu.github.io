@@ -9,10 +9,13 @@ tags: [activism, self-growth, reflection]
 
 ### General Overview of the Program
 
-The Justice Next Cohort is a 
+The Justice Next Cohort is a "skill-building and leadership development 9-week program to empower and equip future leaders" (see [reference](https://dream.org/justice-next-cohort/)). The cohort is made up of BIPOC individuals between 18 to 24 years of age in Maricopa County (or the greater Phoenix area). The central issue areas of interest are at the insersections of criminal and environmental justice, while allowing room for exploration of other related issues (e.g. migration, education, etc).
 
 This is the second time that the Justice Next Cohort is being hosted in Phoenix, Arizona. Last spring, it was hosted in Sacramento, California. 
 
+This year's cohort involved mostly youth from the various colleges across the state, while also involving some formerly incarcerated youth and early-career adults. I myself am someone who studied out-of-state and recently returned to stay with my family. I am currently looking for work. 
+
+## Weekend 1 Program Summary
 
 ### Day 1: Getting to Know Each Other & Training/Talks on Organizing 
 
@@ -28,26 +31,28 @@ At the end of the day, we discussed pluses and deltas (aka positives & places fo
 
 Day two started off similarly, with the participants having breakfast together and socializing. By this point, many groups have already formed while others make the effort to mingle with new folks. 
 
-The first talk was led by Yuri, [insert role], on mentoring and essential mentoring skills and philosophies. Similarly to Sean, she started off her talk by sharing her background and what brought her to this space. She described the long activist history in her family line and how it has guided her in her current work --- many of her ancestors were part of the Black Panther Party as well as the [other party...]. She mentioned that her name, Yuri, comes from her godmother Yuri Kochiyama (icon!!!), whose legacy continues to guide her work today. 
+The first talk was led by Yuri Sadiki-Torres, the Green For All National Organizer at Dream.org, on mentoring and essential mentoring skills and philosophies. Similarly to Sean, she started off her talk by sharing her background and what brought her to this space. She described the long activist history in her family line and how it has guided her in her current work --- many of her ancestors were part of the Black Panther Party as well as the Young Lords' Party. She mentioned that her name, Yuri, comes from her godmother Yuri Kochiyama (icon!!!), whose legacy continues to guide her work today. 
 
 The second talk/training was led by Jessica Johnson, [insert role], on campaigns and effective campaign strategy. 
 
 
-### My Overall Thoughts and Feelings
+## My Overall Thoughts and Feelings
 
-I am excited for the opportunity to connect with more people in Arizona and learn about how I can engage with justice work close to me (e.g. the intersections of climate, migration, and environmentalism). I believe that this program will introduce me to many new people in my community and perspectives that can broaden my understanding and connection with not only the political landscape of Arizona, but those working on the frontlines to make it a place for all people to thrive (while it currently is a place of systemic violence for many minority groups). 
+I am excited for the opportunity to connect with more people in Arizona and learn about how I can engage with justice work close to me (e.g. the intersections of climate, migration, and environmentalism). I believe that this program will introduce me to many new people in my community and diverse perspectives that can broaden my understanding and connection with not only the political landscape of Arizona, but those working on the frontlines to make it a place for all people to thrive (while it currently is a place of systemic violence for many minority groups). 
 
 So far, we've already engaged in many icebreaker activities and discussion sessions that allowed us to share some of our vulnerable moments and perspectives underpinning our shared commitment to justice work. On some levels, I am aligned with my peers and in other aspects I see room to grow for the both of us. I am eager to continue having conversations with the youth in my community so that we can mutually grow into increasingly empathetic, compassionate, and learned activists, especially for the politically disenfranchised in our communities whose voices are often left unheard in public political discourse. 
 
 I also hope that I can bring my personal identities and experiences forward to enrich the learning and engagement of my peers. There are already some moments where we have clashed or struggled to see eye to eye, but I am hopeful that we can engage with empathy and openness to continuous improvement, rather than distaste/contempt/ostracization. I have been pushed to evaluate my work more deeply and develop a stronger conviction/understanding of why it is that I engage and how I should moving forward in an intentional and responsive way to the contexts from which people come, rather than through an idea of what I think needs to be done without the deep understanding/local knowledge of issues that concern multiply marginalized communities in the Phoenix area.
 
-[- money, resumes, the performance to survive an unnatural, capitalistic society and reckoning with it as a neurodivergent individual. ]
+One of my key reflections after this cohort weekend was on the role of money, productivity, and performances of worth in a capitalist society, especially in activist and advocacy spaces. As a neurodivergent and physically disabled person, I have regularly struggled with the interconnectedness of productivity and worth/value in society. I have often struggled with feeling inherently (un)worthy when so much of my existence has been on the plane of misfortune and inability to do "normal" things. Thereafter, I feel disconnected from narratives of productivity and "self-sufficiency" that most people believe in. I don't believe in independence over community; rather, if I had to strive for independence, I would not have survived past my elementary school days. 
 
-- hope in meeting new folks, learning about opportunities to tap in, connect, engage, and do important work
-- new insights into how work is actually done and done effectively and with compassion, integrity, commitment to the politically disenfranchised
-- discussions and hands-on work to get thoughts flowing, room for growth 
-- ice breaker activities --- a mix of fun and tension (vulnerability) 
-- empathy and responsibility to shared goals, commitment, maintaining respect and trust for each other through difficulty, tension, differences in worldviews
+Moreover, I grew up in a low-income immigrant family struggling with generations of trauma and trying many forms of coping--- some more violent than others--- such that I value monetary/material wealth differently than many of my peers. I think this weekend's conversations and engagements have made me revisit my thoughts about money as an operation of control, power, and hegemony. While many institutional and bureaucratic operations are currently supported financially by money, I want to move away from money as the primary force for change. I feel like when we overvalue material things, we forget the power and capital (simply defined as resources) that come from within our community that advance us in even broader ways than money can ever fill. 
+
+As I stated during the weekend, I firmly believe that we do not build a village from money. We build a village from forging connections and by bringing our efforts together as one to care and care deeply through all the complexities of our lives so that we do not overwrite each other but continually build from and improve from each other's experiences, perspectives, and wisdom. We build a village from the shared investment in documenting and sharing our stories, celebrating our diverse heritages and traditions, and protecting our histories as foundation for the countries that seek to erase our contributions to uphold one model for social organization that serves nobody but a privileged few. We sustain a village by valuing our localized knowledge(s) of care, responsibility, and collectivity that have been shattered by notions of independence, self-sufficiency, and the like that have taught us to forget others and even feel threatened by others. I think this weaponization of fear is a type of colonization of our minds that entraps us in the mindset that we owe anything to our ~~benefactors~~ imprisoners. It makes us turn away from those who actually protect us from the threat posed by powers that want to tell us how to think.
+
+I don't think that our priority as changemakers should be to be a mere benefactor of good causes. We can strive for more--- we can strive to understand and respect the agency and dignity of those we seek to serve. We should always remain **in service** of those we want to protect, not **in control** of the narrative and the avenues for change and revitalization in disenfranchised communities. We should not forget that, unless we want to become ourselves a version of a colonizer and of someone who makes a celebration out of altruism as the only real salvation. We can do better than that. That is why money will never be my first priority, even though I understand the need to consolidate financial power as a resource for campaigning. I am not merely subscribing to ideals but I still rely on them to ground my practice so that I do not lose myself in the process. I hope you can understand where I come from. 
+
+I have witnessed so many global communities be further entrenched in violence through promises of money to clear their debts. At the center of everything money itself was the basis from which colonizers have extracted from our communities. Ultimately, then, I can never see money being a part of our freedom. 
 
 
 
