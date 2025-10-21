@@ -108,8 +108,9 @@ permalink: /about/
           <section id="summary" class="container">
               <img src="/assets/images/profilepicture.png" class="profile_image">
               <h1>Hi, I'm Nancy Vu!</h1>
-              <p>I am a recent graduate from Swarthmore College with a passion for social work and statistics. I aspire to use data for social change and public good.</p>
-              <p>I am currently looking for professional experience using my knowledge of SQL, R, and (hopefully) JavaScript for non-profit organizations and local initiatives, rather than staying within the academic realm.</p>
+              <p>I am a recent graduate from Swarthmore College with a passion for social work and mixed-methods research. I aspire to use data and statistical analysis for social change and public good.</p>
+              <p>I am currently looking for professional experience using my interdisciplinary social science background, critical analytical skills, and knowledge of SQL, R, and (hopefully) JavaScript for non-profit organizations and local initiatives rather than staying within the academic realm.</p>
+              <p>Aside from committing myself to advocacy work and community-engaged research, I enjoy thrifting, painting, embroidering, reading, going on nature walks, and playing video games with my friends.</p>
           </section>
   
 <!-- Resume Section -->
@@ -126,10 +127,10 @@ permalink: /about/
             <h2>Work Experience</h2>
             <h2>Skills</h2>
                 <ul>
-                    <li>General: <i>applied mathematics, statistical theory and analysis, creative and policy writing, data cleaning, data querying, data reporting and visualization, copy editing, mixed-methods research, interview research and analysis, sociological theory, research ethics, website management, Canva, SquareSpace, MailChimp</i></li> 
-                    <li>Programming: <i>R, SQL, HTML/CSS, some JS and Python</i></li>
-                    <li>Applications: <i>Atlas.ti, Trint, Zotero, Git/GitHub, Google Workspace, Microsoft Excel, Microsoft Office</i></li>
-                    <li>Language: <i>Fluent in English and Vietnamese, Limited working proficiency in Spanish</i></li> 
+                    <li>General: applied mathematics, statistical theory and analysis, creative and policy writing, data cleaning, data querying, data reporting and visualization, copy editing, mixed-methods research, interview research and analysis, sociological theory, research ethics, website management, Canva, SquareSpace, MailChimp</li> 
+                    <li>Programming: R, SQL, HTML/CSS, some JS and Python</li>
+                    <li>Applications: Atlas.ti, Trint, Zotero, Git/GitHub, Google Workspace, Microsoft Excel, Microsoft Office</li>
+                    <li>Language: Fluent in English and Vietnamese, Limited working proficiency in Spanish</li> 
                 </ul>
           </section>
   
