@@ -9,7 +9,7 @@ tags: [activism, self-growth, reflection]
 
 ### General Overview of the Program
 
-The Justice Next Cohort is a "skill-building and leadership development 9-week program to empower and equip future leaders" (see [reference](https://dream.org/justice-next-cohort/)). The cohort is made up of BIPOC individuals between 18 to 24 years of age in Maricopa County (or the greater Phoenix area). The central issue areas of interest are at the insersections of criminal and environmental justice, while allowing room for exploration of other related issues (e.g. migration, education, etc).
+The Justice Next Cohort is a "skill-building and leadership development 9-week program to empower and equip future leaders" (see [reference](https://dream.org/justice-next-cohort/)). The cohort is made up of BIPOC individuals between 18 to 24 years of age in Maricopa County (or the greater Phoenix area). The central issue areas of interest are at the intersections of criminal and environmental justice, while allowing room for exploration of other related issues (e.g. migration, education, etc).
 
 This is the second time that the Justice Next Cohort is being hosted in Phoenix, Arizona. Last spring, it was hosted in Sacramento, California. 
 
