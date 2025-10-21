@@ -2,7 +2,7 @@
 layout: post
 title: "Thoughts on Justice Next Cohort: Weekend 1 (09/20/2025-09/21/2025)"
 date: 2025-09-23
-summary: The first weekend of the Justice Next Cohort was this last Saturday and Sunday. It is my first organized program working with other young adults in Arizona after studying out-of-state in Philadelphia. I reflect on my time and experience with learning along with my peers and building new connections, filled with both hope and some initial concerns. 
+summary: The first weekend of the Justice Next Cohort was this last Saturday and Sunday. It is my first organized program working with other young adults in Arizona after studying out-of-state in Philadelphia. I reflect on my time and experience learning along with peers and building new connections, filled with both hope and some initial concerns. 
 categories: blog
 tags: [activism, self-growth, reflection]
 ---
