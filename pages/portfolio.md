@@ -108,7 +108,7 @@ permalink: /about/
           <section id="summary" class="container">
               <img src="/assets/images/profilepicture.png" class="profile_image">
               <h1>Hi, I'm Nancy Vu!</h1>
-              <p>I am a recent graduate from Swarthmore College with a passion for social work and mixed-methods research. I aspire to use data and statistical analysis for social change and public good.</p>
+              <p>I am a recent graduate from Swarthmore College with a passion for social work and mixed-methods research. I aspire to use data and statistical analysis for social change.</p>
               <p>I am currently looking for professional experience using my interdisciplinary social science background, critical analytical skills, and knowledge of SQL, R, and (hopefully) JavaScript for non-profit organizations and local initiatives rather than staying within the academic realm.</p>
               <p>Aside from committing myself to advocacy work and community-engaged research, I enjoy thrifting, painting, embroidering, reading, going on nature walks, and playing video games with my friends.</p>
           </section>
