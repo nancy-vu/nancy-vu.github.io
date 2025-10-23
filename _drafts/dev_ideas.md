@@ -32,5 +32,6 @@ tags: [dev, archive]
 - tags page or means of searching by tags
 - add tag hyperlinks on posts 
 - add suggested posts based on shared tags
+- create blog dropdown based on tags? (reflections vs. recipes vs. film reviews vs. travel?)
 
 
