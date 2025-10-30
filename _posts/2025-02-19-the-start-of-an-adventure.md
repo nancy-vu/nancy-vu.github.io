@@ -3,7 +3,7 @@ layout: post
 title: The Start of an Adventure
 date: 2025-02-19
 summary: For my first day of creating this blog, I set up Jekyll on my computer in order to create a list of recent posts. Then, I plan on writing Markdown and HTML files in order to stylize the individual blog posts and my blog page overall. In the process, I need to do file clean up between my existing repository and the new organization to work with Jekyll.
-categories: blog
+categories: archive
 tags: website
 ---
 
